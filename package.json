@@ -1,0 +1,29 @@
+{
+  "name": "robotics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "engines": {
+    "node": ">=16.17.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robotics",
+    "arm",
+    "ros",
+    "blockly"
+  ],
+  "author": "Javier Contreras",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "devDependencies": {
+    "electron": "^20.0.3",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "blockly": "^8.0.5"
+  }
+}
